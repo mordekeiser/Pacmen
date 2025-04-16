@@ -1,12 +1,12 @@
 
-# 🕹️ Pacman: A Terminal-Based Pac-Man
+# Pacman: A Terminal-Based Pac-Man
 
 
 **Pacman** is a command-line rendition of the classic Pac-Man game, implemented in C++. It offers a nostalgic gaming experience directly within the terminal, utilizing ASCII characters for rendering and standard input for controls.
 
 ---
 
-## 🎯 Objective of the Study
+##  Objective of the Study
 
 - Clone and explore the Terminal-Pacman project.
 - Analyze the structure, components, and algorithms used.
@@ -38,13 +38,13 @@ Pacmen/
 
 ---
 
-## 🔍 Breadth-wise Understanding
+##  Breadth-wise Understanding
 
-### 💡 Game Description
+###  Game Description
 
 Terminal-Pacman replicates the classic Pac-Man gameplay within a terminal environment. Players navigate Pac-Man through a maze, collecting dots while avoiding ghosts. The game employs ASCII characters for visual representation and standard keyboard inputs for controls.
 
-### 🛠️ Technologies Used
+###  Technologies Used
 
 - **Language:** C++
 - **Input Handling:** Standard input (keyboard)
@@ -65,9 +65,9 @@ The project is organized into multiple C++ source and header files, each handlin
 - **Makefile**: Provides build instructions for compiling the project.
 ---
 
-## 🔬 Depth-wise Analysis
+##  Depth-wise Analysis
 
-### 1. 🧠 Approaches Taken
+### 1.  Approaches Taken
 
 - **Object-Oriented Design:** Each game entity (Pac-Man, ghosts, dots, boulders) is encapsulated within its own class, promoting modularity and ease of maintenance.
 - **Game Loop:** Implements a continuous loop that updates game state, processes user input, and renders the game frame-by-frame.
@@ -96,7 +96,7 @@ The project is organized into multiple C++ source and header files, each handlin
 - Terminal control sequences manage cursor positioning and screen updates to create a dynamic gameplay experience.
 
 
-### 4. ⚖️ Tradeoffs Made
+### 4. Tradeoffs Made
 
 - **Terminal-Based Rendering:** While offering simplicity and nostalgia, it limits graphical capabilities compared to GUI-based implementations.
 - **Simplified AI:** Ghost behaviors are likely based on basic algorithms, lacking advanced pathfinding techniques like A*.
@@ -104,7 +104,7 @@ The project is organized into multiple C++ source and header files, each handlin
 
 ---
 
-## 🔧 Contribution
+## Contribution
 
 - **1. Overlap** Noticed that ghosts sometimes overlap with Pac-Man without triggering a game-over, indicating a potential collision detection bug.
 - **Fix:** Suggest enhancing the collision detection logic to accurately register overlaps between Pac-Man and ghosts.
