@@ -108,5 +108,5 @@ The project is organized into multiple C++ source and header files, each handlin
 
 - **1. Overlap** Noticed that ghosts sometimes overlap with Pac-Man without triggering a game-over, indicating a potential collision detection bug.
 - **Fix:** Suggest enhancing the collision detection logic to accurately register overlaps between Pac-Man and ghosts.
-- **2. No UI** There is no userinterface made for this project and you have to start by giving command everytime one you lose. THere is no place to store scores .
+- **2. No UI** There is no user interface made for this project and you have to start by giving command everytime you lose. There is no place to store scores .
 ---
